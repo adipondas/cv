@@ -1,0 +1,145 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  background-color: #FFFFF0;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 20px auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'Numans', sans-serif;
+  color: #11999E;
+  font-weight: normal;
+}
+h4{
+  font-family: 'Numans', sans-serif;
+  color: #63b7af;
+  font-weight: bold;
+}
+hr{
+  border-width: 10px;
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  width: 7%;
+  margin: 70px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  font-size: 1.2rem;
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color: #e4f9f5;
+  animation: transitionIn 1s;
+}
+.skills{
+  background-color: #e4f9f5;
+  padding: 50px 0;
+  border-radius: 5%;
+  animation: transitionIn 1s;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  top: 30px;
+  right: 300px;
+}
+.mountain{
+  margin: 0;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  text-align-last: left;
+}
+.computer{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.chilli{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+.profilepic{
+  margin: 75px auto 25px auto;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  margin-top: 70px;
+  animation: transitionIn 1s;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.profile{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+  animation: transitionIn 1s;
+}
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.contact-me{
+  animation: transitionIn 1s;
+}
+
+.footer-link:hover{
+  text-decoration: none;
+}
+
+@keyframes transitionIn {
+
+    from{
+
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+
+    to{
+
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+
+
+}
