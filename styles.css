@@ -52,7 +52,7 @@ p{
 .top-container{
   position: relative;
   padding-top: 100px;
-  margin-top:75px;
+  margin-top: 75px;
   background-color: #e4f9f5;
   animation: transitionIn 1s;
 }
