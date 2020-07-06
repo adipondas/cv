@@ -2,8 +2,8 @@
 
 $(".mode").click(function()
 {
-  if($("#theme").attr("href")=="css/styles.css")
-  $("#theme").attr("href","css/styles1.css");
+  if($("#theme").attr("href")=="styles.css")
+  $("#theme").attr("href","styles1.css");
   else
-  $("#theme").attr("href","css/styles.css");
+  $("#theme").attr("href","styles.css");
 });
