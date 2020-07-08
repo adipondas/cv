@@ -128,7 +128,13 @@ p{
   text-decoration: none;
 }
 
+.btn{
+  transition: 0.8s;
+}
 
+.btn:hover{
+  background-color:inherit;
+}
 @keyframes transitionIn {
 
     from{

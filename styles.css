@@ -51,8 +51,8 @@ p{
 }
 .top-container{
   position: relative;
-  padding-top: 100px;
   margin-top: 75px;
+  padding-top: 100px;
   background-color: #e4f9f5;
   animation: transitionIn 1s;
 }
@@ -126,6 +126,13 @@ p{
 .footer-link:hover{
   text-decoration: none;
 }
+.btn{
+  transition: 0.8s;
+}
+
+.btn:hover{
+  background-color: #fffff0;
+}
 
 @keyframes transitionIn {
 
@@ -140,7 +147,5 @@ p{
       opacity: 1;
       transform: translateY(0);
     }
-
-
 
 }
